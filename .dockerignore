@@ -16,6 +16,7 @@ arm/
 powerpc/
 mips/
 data/
+postman-collection/
 tmp/
 images/
 /out/
