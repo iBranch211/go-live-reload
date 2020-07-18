@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build: .
+    container_name: app
+    restart: unless-stopped
+    environment:
+      TZ: "Europe/Istanbul"
+      PORT: 8081
+    ports:
+      - "8081:8081"
